@@ -52,6 +52,10 @@ def initialize_data():
         PAPER_JSON_FILES = []
         DIATOMS_DATA = []
 
+
+initialize_data()
+
+
 def save_labels(updated_data):
     """Save updated labels and synchronize data structures"""
     global PAPER_JSON_FILES, DIATOMS_DATA
